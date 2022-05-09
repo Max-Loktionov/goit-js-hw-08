@@ -1,22 +1,22 @@
 {
-  "name": "parcel-project-08-03",
+  "name": "goit-js-hw-08",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/Max-Loktionov/parcel-project-08-03",
+  "homepage": "https://github.com/Max-Loktionov/goit-js-hw-08",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-08-03/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Max-Loktionov/parcel-project-08.git"
+    "url": "git+https://github.com/Max-Loktionov/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "Max-Loktionov <studreno@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Max-Loktionov/goit-js-hw-08/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
