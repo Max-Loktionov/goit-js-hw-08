@@ -4,4 +4,4 @@ var t=arguments[3],n="Expected a function",e=NaN,i="[object Symbol]",r=/^\s+|\s+
 },{}],"TTyb":[function(require,module,exports) {
 "use strict";var e=t(require("lodash.throttle"));function t(e){return e&&e.__esModule?e:{default:e}}const a=document.querySelector(".feedback-form"),o=document.querySelector(".feedback-form textarea"),r=document.querySelector(".feedback-form input");let l={};const n="feedback-form-state";function c(e){e.preventDefault();const{elements:{email:t,message:a}}=e.target;l={email:t.value,message:a.value},e.currentTarget.reset(),localStorage.removeItem(n),console.log(l)}function s(e){l[e.target.name]=e.target.value,localStorage.setItem(n,JSON.stringify(l))}function u(e){const t=localStorage.getItem(n);if(t){const e=JSON.parse(t);console.dir(e.message),r.value=e.email,o.value=e.message}}function m(e){const t=localStorage.getItem("email");t&&(console.log(t),r.value=t)}a.addEventListener("submit",c),a.addEventListener("input",(0,e.default)(s,500)),m(),u();
 },{"lodash.throttle":"FNyO"}]},{},["TTyb"], null)
-//# sourceMappingURL=/parcel-project-08-03/03-feedback.39c7d382.js.map
+//# sourceMappingURL=/goit-js-hw-08/03-feedback.39c7d382.js.map
