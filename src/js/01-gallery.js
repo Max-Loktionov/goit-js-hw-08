@@ -1,8 +1,10 @@
-import SimpleLightbox from "simple-lightbox";
+// import SimpleLightbox from "simple-lightbox";
+import "simplelightbox/dist/simple-lightbox.js";
 import "simplelightbox/dist/simple-lightbox.min.css";
+// import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm"
 
 // Add imports above this line
-import { galleryItems } from './gallery-items';
+import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 console.log(galleryItems);
@@ -12,9 +14,10 @@ const imageGallery = createImageGallery(galleryItems);
 
 galleryBox.insertAdjacentHTML ('beforeend', imageGallery);
 
+console.log(galleryBox);
 
 function createImageGallery(items) {
-    
+   
     return items.map(({ preview, original, description }) => {
         return `
             <a class="gallery__item" href="${original}">
