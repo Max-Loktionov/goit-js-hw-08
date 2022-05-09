@@ -29,3 +29,7 @@ textarea {
 textarea {
   resize: none;
 }
+
+.form {
+  outline: tomato 1px solid;
+}

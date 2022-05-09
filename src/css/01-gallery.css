@@ -40,3 +40,7 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+
+.form {
+  outline: tomato 1px solid;
+}
