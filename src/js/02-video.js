@@ -10,7 +10,6 @@ const timePoint = function ({ seconds }) { localStorage.setItem(TIME_POINT, seco
 
 player.on('timeupdate', throttle(timePoint, 1000));
 
-
 // // ==============set
 
 player.setCurrentTime(localStorage.getItem(TIME_POINT)).then(function() {
@@ -28,3 +27,4 @@ player.setCurrentTime(localStorage.getItem(TIME_POINT)).then(function() {
     }
 });
 
+// console.log(timePoint)
